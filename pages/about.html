@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | JomNum Learn</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <header class="sticky top-0 z-20 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <a href="../index.html" class="text-xl font-bold text-blue-700">JomNum Learn</a>
+      <button id="menuToggle" class="rounded-md border border-slate-300 p-2 md:hidden" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation menu">
+        <span class="sr-only">Open menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-6 w-6 text-slate-700">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+      <ul class="hidden items-center gap-6 text-sm font-medium md:flex">
+        <li><a href="../index.html" class="hover:text-blue-700">Home</a></li>
+        <li><a href="about.html" class="text-blue-700">About</a></li>
+        <li><a href="contact.html" class="hover:text-blue-700">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="mobileMenu" class="hidden border-t border-slate-200 bg-white md:hidden">
+      <ul class="space-y-1 px-4 py-3 text-sm">
+        <li><a href="../index.html" class="block rounded px-3 py-2 hover:bg-slate-100">Home</a></li>
+        <li><a href="about.html" class="block rounded px-3 py-2 text-blue-700">About</a></li>
+        <li><a href="contact.html" class="block rounded px-3 py-2 hover:bg-slate-100">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+    <section class="mb-12 grid gap-6 lg:grid-cols-2 lg:items-center">
+      <article data-aos="fade-right">
+        <h1 class="text-3xl font-bold text-slate-900 sm:text-4xl">About JomNum Learn</h1>
+        <p class="mt-4 max-w-3xl text-slate-600">JomNum Learn is an e-learning platform focused on practical, project-based education. We help students and professionals gain digital skills that match real industry needs.</p>
+      </article>
+      <figure class="overflow-hidden rounded-xl border border-slate-200 bg-white p-2" data-aos="fade-left">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80" alt="Group of learners collaborating in a digital learning environment" class="h-60 w-full rounded-lg object-cover" />
+      </figure>
+    </section>
+
+    <section class="grid gap-6 md:grid-cols-2" data-aos="fade-up">
+      <article class="rounded-xl border border-slate-200 bg-white p-6">
+        <h2 class="text-xl font-semibold">Our Mission</h2>
+        <p class="mt-3 text-slate-600">Make quality education accessible to everyone with engaging content, clear learning paths, and supportive mentoring.</p>
+      </article>
+
+      <article class="rounded-xl border border-slate-200 bg-white p-6">
+        <h2 class="text-xl font-semibold">Our Vision</h2>
+        <p class="mt-3 text-slate-600">Empower a global community of learners to build confidence, careers, and innovative solutions through technology education.</p>
+      </article>
+    </section>
+
+    <section class="mt-10 rounded-xl border border-blue-100 bg-blue-50 p-6" data-aos="zoom-in-up">
+      <h2 class="text-xl font-semibold text-blue-900">What makes us different?</h2>
+      <ul class="mt-4 grid gap-2 text-sm text-blue-900 sm:grid-cols-2">
+        <li>• Real-world mini projects</li>
+        <li>• Beginner-friendly teaching style</li>
+        <li>• Responsive learning resources</li>
+        <li>• Community discussion support</li>
+      </ul>
+    </section>
+
+    <section class="mt-10" data-aos="fade-up">
+      <h2 class="text-2xl font-bold text-slate-900">Our teaching approach</h2>
+      <div class="mt-5 grid gap-6 md:grid-cols-3">
+        <article class="rounded-xl border border-slate-200 bg-white p-6" data-aos="flip-left" data-aos-delay="50">
+          <h3 class="text-lg font-semibold">Learn</h3>
+          <p class="mt-2 text-sm text-slate-600">Short, focused lessons make complex topics easy to understand.</p>
+        </article>
+        <article class="rounded-xl border border-slate-200 bg-white p-6" data-aos="flip-left" data-aos-delay="120">
+          <h3 class="text-lg font-semibold">Practice</h3>
+          <p class="mt-2 text-sm text-slate-600">Hands-on exercises help learners apply concepts immediately.</p>
+        </article>
+        <article class="rounded-xl border border-slate-200 bg-white p-6" data-aos="flip-left" data-aos-delay="180">
+          <h3 class="text-lg font-semibold">Launch</h3>
+          <p class="mt-2 text-sm text-slate-600">Portfolio-ready projects help learners move toward internships and jobs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mt-10 rounded-xl border border-slate-200 bg-white p-6" data-aos="fade-up">
+      <h2 class="text-2xl font-bold text-slate-900">Our core values</h2>
+      <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1200&q=80" alt="Students studying together in classroom" class="mt-4 h-44 w-full rounded-lg object-cover" />
+      <div class="mt-4 grid gap-4 sm:grid-cols-2">
+        <article>
+          <h3 class="font-semibold text-slate-900">Accessibility</h3>
+          <p class="mt-1 text-sm text-slate-600">Learning materials are structured for different pace levels and devices.</p>
+        </article>
+        <article>
+          <h3 class="font-semibold text-slate-900">Practicality</h3>
+          <p class="mt-1 text-sm text-slate-600">Every module focuses on real skills used in modern digital work.</p>
+        </article>
+        <article>
+          <h3 class="font-semibold text-slate-900">Support</h3>
+          <p class="mt-1 text-sm text-slate-600">Mentors and peer discussion groups guide learners during each milestone.</p>
+        </article>
+        <article>
+          <h3 class="font-semibold text-slate-900">Growth mindset</h3>
+          <p class="mt-1 text-sm text-slate-600">We encourage continuous improvement through feedback and iteration.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-12 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6">
+        <div class="flex flex-col-reverse items-center justify-between gap-2 border-t border-slate-200 pt-4 text-xs text-slate-500 sm:flex-row">
+          <p>© 2026 JomNum Learn. All rights reserved.</p>
+          <p>Built for modern e-learning</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
