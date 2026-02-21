@@ -7,7 +7,7 @@
 
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://your-site.vercel.app)
+👉 [View Live Site](https://jomnum-learn.vercel.app)
 
 ---
 
